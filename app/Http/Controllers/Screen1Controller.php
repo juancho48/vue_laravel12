@@ -21,6 +21,7 @@ class Screen1Controller extends Controller
                           ->orWhere('notes', 'like', '%' . $search . '%');
                 });
             })->get();
+
         }
 
         return Inertia::render('screen-1', [

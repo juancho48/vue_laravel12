@@ -44,7 +44,7 @@ const submitSearch = () => {
     <AppLayout :breadcrumbs="breadcrumbs">
         <div class="flex h-full flex-1 flex-col gap-4 rounded-xl p-4">
             <div>
-                <h1 class="text-2xl font-bold mb-4">Simple Entries</h1>
+                <h1 class="text-2xl font-bold mb-4">Task List ( case sensitive )</h1>
             
                 <input
                 v-model="search"
